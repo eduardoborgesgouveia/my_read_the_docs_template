@@ -18,7 +18,7 @@ import os
 import sys
 
 sys.path.insert(0, os.path.abspath(os.path.pardir))
-import ross
+
 
 # General information about the project.
 project = "ross"
@@ -30,9 +30,9 @@ author = "ROSS devs"
 # built documents.
 #
 # The short X.Y version.
-version = ross.__version__[:3]
+
 # The full version, including alpha/beta/rc tags.
-release = ross.__version__
+
 
 # -- General configuration ------------------------------------------------
 
